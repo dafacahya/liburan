@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <title>Entah Deh</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">gabut doang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>                
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">gabut doang</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-pc-display-horizontal"></i> Simulation </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-pc"></i> Computer
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-cpu"></i> CPU </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-gpu-card"></i> GPU </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-memory"></i> Memory </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-motherboard"></i> Motherboard</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-device-ssd"></i> SSD</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-device-hdd"></i> HDD</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-pc"></i> Case</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-fan"></i> Cooling</a></li>
+                                
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-plug"></i> PSU</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-laptop"></i> Laptop
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#"> Laptop Consumer </a></li>
+                                <li><a class="dropdown-item" href="#"> Laptop Gaming </a></li>
+                                <li><a class="dropdown-item" href="#"> Laptop Content Creator </a></li>
+                                <li><a class="dropdown-item" href="#"> Laptop Business </a></li>
+                                <li><a class="dropdown-item" href="#"> Laptop Workstation </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-mouse3"></i> Pheriperal
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-mouse"></i> Mouse </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-keyboard"></i> Keyboard </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-controller"></i> Controller </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-headset"></i> Headset </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-display"></i> Monitor </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-router"></i> Router </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-battery"></i> UPS </a></li>
+                            </ul>
+                        </li>
+                        <form class="d-flex mt-3 mb-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-cart"></i> Cart </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-circle"></i> Account
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i> Your Account </a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-gear"></i> Settings </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+  <!--carousel-->
+  <div class="banner mt-5">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="/img/banner/TLOU AMD Asus.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/img/banner/Asus TUF 7900.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+  </div>
+  
+</body>
+</html>
