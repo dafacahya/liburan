@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <title>Entah Deh</title>
 </head>
 <body>
@@ -101,10 +101,10 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="/img/banner/TLOU AMD Asus.jpg" class="d-block w-100" alt="...">
+                    <img src="img/banner/TLOU AMD Asus.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="/img/banner/Asus TUF 7900.jpg" class="d-block w-100" alt="...">
+                    <img src="img/banner/Asus TUF 7900.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -129,7 +129,7 @@
                 <div class="row row-cols-2 row-cols-md-4 g-3">
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/cpu.svg" class="img-card-top" alt="..."></a>
+                            <a href="#"><img src="img/svg/cpu.svg" class="img-card-top" alt="..."></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">CPU</a></h5>
                             </div>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/motherboard.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/motherboard.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">Motherboard</a></h5>
                             </div>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/gpu-card.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/gpu-card.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">GPU Card </a></h5>
                             </div>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/memory.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/memory.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">Memory</a></h5>
                             </div>
@@ -161,7 +161,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/device-ssd.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/device-ssd.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">SSD</a></h5>
                             </div>
@@ -169,7 +169,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/device-hdd.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/device-hdd.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">HDD</a></h5>
                             </div>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/fan.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/fan.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#">Cooling</a></h5>
                             </div>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/plug.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/plug.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title">Power Supply</h5>
                             </div>
@@ -193,7 +193,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/display.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/display.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title">Monitor</h5>
                             </div>
@@ -201,7 +201,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/pc.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/pc.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> Case </h5>
                             </div>
@@ -209,7 +209,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/headset.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/headset.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> Headphone </h5>
                             </div>
@@ -217,7 +217,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/mouse.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/mouse.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> Mouse </h5>
                             </div>
@@ -225,7 +225,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/keyboard.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/keyboard.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> Keyboard </h5>
                             </div>
@@ -233,7 +233,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/router.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/router.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> Router </h5>
                             </div>
@@ -241,7 +241,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/battery.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/battery.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> UPS </h5>
                             </div>
@@ -249,7 +249,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <a href="#"><img src="/img/svg/sd-card.svg" class="img-card-top" alt=""></a>
+                            <a href="#"><img src="img/svg/sd-card.svg" class="img-card-top" alt=""></a>
                             <div class="card-body">
                                 <h5 class="card-title"> Memory Card </h5>
                             </div>
@@ -275,7 +275,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 ms-2  text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/intel/13/13900KS.jpg" class="img-card-top" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/intel/13/13900KS.jpg" class="img-card-top" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> Intel Core i9 13900KS </a></h5>
                                         <p class="card-text">Rp 11.519.000</p>
                                     </div>
@@ -284,7 +284,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/intel/13/13700K.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/intel/13/13700K.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> Intel Core i7 13700K </a></h5>
                                         <p class="card-text">Rp 6.579.000</p>
                                     </div>
@@ -293,7 +293,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 me-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/intel/13/13600K.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/intel/13/13600K.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> Intel Core i5 13600K </a></h5>
                                         <p class="card-text">Rp 5.119.000</p>
                                     </div>
@@ -306,7 +306,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 ms-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/amd/7000/7950X.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/amd/7000/7950X.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> AMD Ryzen 9 7950X </a></h5>
                                         <p class="card-text">Rp 9.769.000</p>
                                     </div>
@@ -315,7 +315,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2  text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/amd/7000/7700X.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/amd/7000/7700X.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> AMD Ryzen 7 7700X </a></h5>
                                         <p class="card-text">Rp 5.189.000</p>
                                     </div>
@@ -324,7 +324,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 me-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/amd/7000/7600X.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/amd/7000/7600X.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> AMD Ryzen 5 7600X </a></h5>
                                         <p class="card-text">Rp 3.709.000</p>
                                     </div>
@@ -337,7 +337,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 ms-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/intel/12/12900KS.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/intel/12/12900KS.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> Intel Core i9 12900KS </a></h5>
                                         <p class="card-text">Rp 7.939.000</p>
                                     </div>
@@ -346,7 +346,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2  text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/intel/12/12700K.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/intel/12/12700K.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> Intel Core i7 12700K </a></h5>
                                         <p class="card-text">Rp 5.109.000</p>
                                     </div>
@@ -355,7 +355,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 me-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/intel/12/12600K.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/intel/12/12600K.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> Intel Core i5 12600K </a></h5>
                                         <p class="card-text">Rp 4.049.000</p>
                                     </div>
@@ -368,7 +368,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 ms-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/amd/5000/5950X.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/amd/5000/5950X.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> AMD Ryzen 9 5950X </a></h5>
                                         <p class="card-text">Rp 8.609.000</p>
                                     </div>
@@ -377,7 +377,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2  text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/amd/5000/5800X.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/amd/5000/5800X.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> AMD Ryzen 7 5800X </a></h5>
                                         <p class="card-text">Rp 3.959.000</p>
                                     </div>
@@ -386,7 +386,7 @@
                             <div class="col-md-4">
                                 <div class="card mt-2 mb-2 me-2 text-center">
                                     <div class="card-body">
-                                        <a href="#"><img src="/img/computer/cpu/amd/5000/5600X.jpg" alt=""></a>
+                                        <a href="#"><img src="img/computer/cpu/amd/5000/5600X.jpg" alt=""></a>
                                         <h5 class="card-title-cpu"><a href="#"> AMD Ryzen 5 5600X </a></h5>
                                         <p class="card-text">Rp. 2.749.000</p>
                                     </div>

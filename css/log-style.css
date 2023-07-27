@@ -1,0 +1,9 @@
+body{
+    box-sizing: border-box;
+    background: url(/img/background/sunset-mountain-synthwave-digital-art-4k-wallpaper-uhdpaper.com-612@1@k.jpg);
+    background-position: initial;
+    background-size: cover;
+}
+.card{
+    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(0, 0, 255, 0.1));
+}
